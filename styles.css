@@ -1,0 +1,147 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:#ededed;
+    font-family:Arial;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color:#120b24;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.container2{
+    height:500px;
+    width:35%;
+    background-color:#241942;
+    border-top-left-radius:2%;
+    border-bottom-left-radius:2%;
+}
+img{
+    width:35%;
+    height:500px;
+    border-top-right-radius:2%;
+    border-bottom-right-radius:2%;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.heading{
+    padding:10%;
+    font-size:120%;
+    
+}
+.heading p{
+    margin-top:25px;
+    font-size:100%;
+    color:#bebebe;
+    line-height:170%;
+}
+.stats{
+    display:flex;
+    justify-content:space-between;
+    padding:0 10%;
+}
+.stats p{
+    font-size:90%;
+    color:#bebebe;
+}
+.highlight{
+    color:#962bc4;
+}
+.high{
+    font-weight: bold;
+    font-size:150%;
+    color:#ededed;
+}
+.overlay{
+    width:35%;
+    height:500px;
+    background-color:#510175;
+    position:absolute;
+    right:15%;
+    opacity:0.5;
+    border-top-right-radius:2%;
+    border-bottom-right-radius:2%;
+}
+@media(max-width:800px){
+    body{
+        background-color:#120b24;
+    }
+    .container{
+        width:100%;
+        height:1200px;
+        flex-direction: column-reverse;
+        display:flex;
+    }
+    .container2{
+        height:700px;
+        width:90%;
+        background-color:#241942;
+        border-bottom-right-radius:1%;
+        border-bottom-left-radius:1%;
+        border-top-left-radius:0%;
+    
+    }
+    img{
+        width:90%;
+        height:270px;
+        border-top-right-radius:1%;
+        border-top-left-radius:1%;
+        border-bottom-right-radius:0%;
+    }
+    .heading{
+        padding:10%;
+        font-size:132%;
+        text-align:center;
+    }
+    .stats{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        text-align:center;
+    }
+    .stats p{
+        padding:20px;
+        font-size:80%;
+    }
+    .high{
+        font-size:200%;
+    }
+    .heading h1{
+        font-size:170%;
+    }
+    .stats{
+        margin-top:-20px;
+    }
+    .overlay{
+        width:90%;
+        height:270px;
+        background-color:#510175;
+        position:absolute;
+        top:115px;
+        right:5%;
+        opacity:0.5;
+        border-top-right-radius:1%;
+        border-top-left-radius:1%;
+        border-bottom-right-radius:0%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
